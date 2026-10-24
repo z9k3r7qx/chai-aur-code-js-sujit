@@ -10,3 +10,14 @@ myarr2.shift();
 
 let ans = myarr.includes(22);
 let ans2 = myarr.indexOf(2);
+
+// changing the original array
+myarr.splice(1,2)
+
+// not changing in original array
+myarr.slice(1,2);
+
+let a1 = [1,2,3,4];
+let a2 = [5,6];
+let a3 = a1.push(a2);
+// let a4 = a1.concat(a2);
