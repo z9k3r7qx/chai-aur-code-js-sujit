@@ -9,3 +9,4 @@ myarr2.shift();
 
 
 let ans = myarr.includes(22);
+let ans2 = myarr.indexOf(2);
